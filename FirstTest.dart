@@ -1,25 +1,25 @@
+import 'dart:io';
 // comentario em linha
 /* 
 comentario em bloco
 */
 /// comentorio de documentoção 
 
-/* Print
-main(){
+/* Print */
+Um(){
   var firstName = 'Robson';
   String secondName = 'André';
 
   print(firstName +' '+ secondName);
-};*/
+}
 
-/* Input
-import 'dart:io';
-main(){
+/* Input */
+Dois(){
   stdout.writeln('What your name: ');
   var name = stdin.readLineSync();
 
   print('My name is $name ');
-};*/
+}
 
 /* Tipos de dados
  ________
@@ -30,8 +30,9 @@ main(){
 |Double  |
 |Dynamic |
 |________|
+*/
 
-main() {
+Tres() {
   // Int
   print('\n| Type: Int |\n');
   int numberOne = 100;
@@ -73,10 +74,10 @@ main() {
   all = null;
   print('| Type: Null |');
   print('| Object and $all |\n');
-};*/
+}
 
-/* Aspas simples e Aspas Duplas
-main() {
+/* Aspas simples e Aspas Duplas */
+Quatro() {
   var one = 'single quote';
   var two = "double quote";
   var three = 'i"m Robson';
@@ -90,4 +91,4 @@ main() {
   print('| $four |\n');
   print('| $five |\n');
   print('| $six |\n');
-};*/
+}
